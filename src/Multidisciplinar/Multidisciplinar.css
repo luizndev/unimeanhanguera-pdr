@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+  --cor-principal: #e31b22;
+  --cor-branca: #fff;
+  --cor-input: #2929290d;
+  --border-radius: 12.03px;
+}
+
+body {
+  font-family: "Montserrat", serif;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  overflow-y: auto;
+}
+
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  gap: 15px;
+  top: 15%;
+  width: 100%;
+  overflow-y: scroll;
+  height: 85dvh;
+}
+
+
+.inputbox{
+  width: 75%;
+  display: flex;
+  flex-direction: column-reverse;
+  
+}
+
+.inputbox select{
+  width: 100% !important;
+}
+
+.inputbox input, .inputbox select, .inputbox option{
+  width: 100%;
+  outline: none;
+  background-color: #18191b16;
+  border: none;
+  color: #2f2f2f;
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 20px 20px;
+}
+
+.inputbox span{
+  color: #2F3136;
+  margin-bottom: 10px;
+}
+
+#button-box-sucess{
+  width: 75% !important;
+  background-color: #e31b22;
+  color: #ffffff;
+  width: 100% !important;
+  margin-bottom: 100px;
+}
+
+
+
+.title-solic{
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  flex-direction: column;
+}
+
+
+.title-solic h1{
+  height: 20px;
+  text-transform: uppercase;
+  color: #e31b22;
+
+}
+
+.title-solic span{
+  color: rgba(255, 255, 255, 0.375);
+}
+
+#open-new-tab{
+  width: 103.5% !important;
+  background-color: #FFCC32;
+  color: #292929;
+  border: none;
+}
+
+
